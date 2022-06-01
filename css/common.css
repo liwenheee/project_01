@@ -1,0 +1,104 @@
+/*公共样式*/
+.fl{
+	float:left;
+}
+.fr{
+	float: right;
+}
+/*版心*/
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+.style-red{
+	color: red;
+}
+.spacer{
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 9px 12px 0;
+}
+.shortcut{
+	height: 31px;
+	background-color: #f1f1f1;
+	line-height: 31px;
+
+
+}
+.shortcut li{
+	float: left;
+}
+
+.header{
+	position: relative;
+	height: 105px;
+	background-color: pink;
+}
+.logo{
+	position: absolute;
+	top: 25px;
+	left: 0;
+	width: 175px;
+	height: 56px;
+	background-color: purple;
+
+
+}
+.logo a{
+	display: block;
+	/*溢出隐藏*/
+	overflow: hidden;
+	height: 56px;
+	width: 175px;
+	background:;
+	/*移出盒子*/
+	text-indent: -999px;
+	/*字号为0*/
+	font-size:0;
+
+
+}
+.search{
+	position: absolute;
+	top: 25px;
+	left: 348px;
+}
+.text{
+	float: left;
+	width: 445px;
+	height: 32px;
+	border: 2px solid red;
+	color: #ccc;
+	padding-left: 10px;
+
+}
+.btn{
+	float: left;
+	width: 82px;
+	height: 32px;
+	background-color: red;
+	border: none;
+	font-size: 16px;
+	color: #fff;
+}
+.hotwords{
+	position: absolute;
+	left: 348px;
+	top: 65px;
+
+}
+.hotwords a{
+	margin: 0 12px;
+}
+.shopcar{
+	position: absolute;
+	float: right;
+	right: 64px;
+	top: 25px;
+	width: 138px;
+	height: 34px;
+	border: 1px solid black;
+	line-height: 34px;
+	text-align: center;
+}
